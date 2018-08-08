@@ -1,0 +1,33 @@
+AuthSetting
+{
+IEEE8021xSetting
+{
+SYLee
+{
+Jinhong Jinseo
+}
+caCertInstalled 1
+cliCertInstalled 1
+cliPemInstalled 0
+eapId aaa111
+eapType hex
+eapolVersion 3
+isEnable 0
+keyPw 5tkatjd!
+}
+TlsSetitng
+{
+Hyundai
+{
+Avante HD
+Benz
+{
+S-Class 330
+}
+}
+certificateType plain
+certiicateName my_certificate
+enableCleintCeriticateMode false
+whatisit TaehoKim
+}
+}

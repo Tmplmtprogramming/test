@@ -1,0 +1,47 @@
+VideoEncoderSetting
+{
+H264Setting
+{
+DynamicGOVMaxLength 120
+GOVLength 60
+deblock 0
+entropyCoding 1
+motionEst 10
+priorityMode 2
+profile 2
+useDynamicFPS 1
+useDynamicGOV 96
+{ int
+} H265Setting
+}
+MjepgSetting
+{
+priorityMode 3
+}
+VideoRateSetting
+{
+bitrateLimit 8192
+encodingInterval 33
+framerateLimit 30
+isCBR 0
+}
+codec a
+compression 10
+fisheyeViewType 0
+height 1080
+name whatisit
+rtpMulticast
+{
+addressV4 169.128.0.3
+addressV6 ::01:23:45:67
+autoStart 0
+isEnable 0
+port 554
+ttl 128
+}
+sessionTimeout 60
+token tokens
+useCount 3
+useSmartCodec 0
+width 1920
+}

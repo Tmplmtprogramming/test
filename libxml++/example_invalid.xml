@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<title>libxml++ - C++ bindings for libxml2</title>
+<meta name='generator' content='cgit v0.12'/>
+<meta name='robots' content='index, nofollow'/>
+<link rel='stylesheet' type='text/css' href='https://static.gnome.org/git.gnome.org/cgit-gnome.css'/>
+<link rel='shortcut icon' href='https://static.gnome.org/img/logo/foot-16.png'/>
+<link rel='alternate' title='Atom feed' href='https://git.gnome.org/browse/libxml++/atom/examples/dom_parser/example_invalid.xml?h=master' type='application/atom+xml'/>
+<link rel='vcs-git' href='git://git.gnome.org/libxml++' title='libxml++ Git repository'/>
+<link rel='vcs-git' href='https://git.gnome.org/browse/libxml++' title='libxml++ Git repository'/>
+<link rel='vcs-git' href='ssh://USERNAME@git.gnome.org/git/libxml++' title='libxml++ Git repository'/>
+</head>
+<body>
+<div id="global_domain_bar">
+<div class="maxwidth">
+	<div class="tab">
+	<a class="root" href="https://www.gnome.org/">GNOME.org</a>
+	</div>
+</div>
+</div>
+
+<div id="page">
+    <div id="logo_bar" class="container_12">
+      <div id="logo" class="grid_3">
+        <a title="Go to home page" href="https://git.gnome.org/"><img src="https://static.gnome.org/img/gnome-git.png" alt="GNOME: Git Repository" /></a>
+      </div>
+
+      <div id="top_bar" class="grid_9">
+        <div class="left">
+          <div class="menu-globalnav-container">
+            <ul id="menu-globalnav" class="menu">
+              <li id="menu-item-1039" class=
+              "menu-item menu-item-type-post_type menu-item-object-page menu-item-1039">
+              <a href="https://git.gnome.org/">Home</a></li>
+
+              <li id="menu-item-1037" class=
+              "menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
+              <a href="https://wiki.gnome.org/Git">Git Help</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+</div>
+<div id='cgit'><table id='header'>
+<tr>
+<td class='main'><a href='/browse/'>index</a> : <a title='libxml++' href='/browse/libxml++/'>libxml++</a></td><td class='form'><form method='get' action=''>
+<select name='h' onchange='this.form.submit();'>
+<option value='LIBXMLPP_BRANCH_1_0'>LIBXMLPP_BRANCH_1_0</option>
+<option value='LIBXMLPP_BRANCH_2_6'>LIBXMLPP_BRANCH_2_6</option>
+<option value='gnome-2-10'>gnome-2-10</option>
+<option value='gnome-2-12'>gnome-2-12</option>
+<option value='gnome-2-14'>gnome-2-14</option>
+<option value='gnome-2-18'>gnome-2-18</option>
+<option value='gnome-2-22'>gnome-2-22</option>
+<option value='gnome-2-24'>gnome-2-24</option>
+<option value='gnome-2-26'>gnome-2-26</option>
+<option value='gnome-2-30'>gnome-2-30</option>
+<option value='gnome-2-36'>gnome-2-36</option>
+<option value='gnome-2-8'>gnome-2-8</option>
+<option value='libxml++-2-40'>libxml++-2-40</option>
+<option value='libxml++-3.0'>libxml++-3.0</option>
+<option value='master' selected='selected'>master</option>
+</select> <input type='submit' name='' value='switch'/></form></td></tr>
+<tr><td class='sub'>C++ bindings for libxml2</td><td class='sub right'>C++</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/browse/libxml++/'>summary</a><a href='/browse/libxml++/refs/'>refs</a><a href='/browse/libxml++/log/examples/dom_parser/example_invalid.xml'>log</a><a class='active' href='/browse/libxml++/tree/examples/dom_parser/example_invalid.xml'>tree</a><a href='/browse/libxml++/commit/examples/dom_parser/example_invalid.xml'>commit</a><a href='/browse/libxml++/diff/examples/dom_parser/example_invalid.xml'>diff</a><a href='/browse/libxml++/stats/examples/dom_parser/example_invalid.xml'>stats</a></td><td class='form'><form class='right' method='get' action='/browse/libxml++/log/examples/dom_parser/example_invalid.xml'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='text' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/browse/libxml++/tree/'>root</a>/<a href='/browse/libxml++/tree/examples'>examples</a>/<a href='/browse/libxml++/tree/examples/dom_parser'>dom_parser</a>/<a href='/browse/libxml++/tree/examples/dom_parser/example_invalid.xml'>example_invalid.xml</a></div><div class='content'>blob: ac422698f03ef3fa8ceba07316e1f72f42162106 (<a href='/browse/libxml++/plain/examples/dom_parser/example_invalid.xml'>plain</a>)
+<table summary='blob content' class='blob'>
+<tr><td class='linenumbers'><pre><a id='n1' href='#n1'>1</a>
+<a id='n2' href='#n2'>2</a>
+<a id='n3' href='#n3'>3</a>
+<a id='n4' href='#n4'>4</a>
+<a id='n5' href='#n5'>5</a>
+<a id='n6' href='#n6'>6</a>
+<a id='n7' href='#n7'>7</a>
+<a id='n8' href='#n8'>8</a>
+<a id='n9' href='#n9'>9</a>
+<a id='n10' href='#n10'>10</a>
+<a id='n11' href='#n11'>11</a>
+<a id='n12' href='#n12'>12</a>
+<a id='n13' href='#n13'>13</a>
+<a id='n14' href='#n14'>14</a>
+<a id='n15' href='#n15'>15</a>
+<a id='n16' href='#n16'>16</a>
+</pre></td>
+<td class='lines'><pre><code><span class="hl kwa">&lt;?xml</span> <span class="hl kwb">version</span>=<span class="hl str">&quot;1.0&quot;</span><span class="hl kwa">?&gt;</span>
+<span class="hl kwa">&lt;!DOCTYPE</span> example PUBLIC <span class="hl str">&quot;&quot;</span> <span class="hl str">&quot;example.dtd&quot;</span> [
+<span class="hl kwa">&lt;!ENTITY</span> wwwmurrayc <span class="hl str">&quot;http://www.murrayc.com&quot;</span><span class="hl kwa">&gt;</span>
+]<span class="hl kwa">&gt;</span>
+
+<span class="hl kwa">&lt;example&gt;</span>
+  <span class="hl kwa">&lt;examplechild</span> <span class="hl kwb">id</span>=<span class="hl str">&quot;1&quot;</span><span class="hl kwa">&gt;</span>
+    Some content. <span class="hl kwd">&amp;quot;</span>Some quoted content.<span class="hl kwd">&amp;quot;</span>
+    <span class="hl kwa">&lt;child_of_child/&gt;</span>
+  <span class="hl kwa">&lt;/examplechild&gt;</span>
+  <span class="hl kwa">&lt;examplechild</span> <span class="hl kwb">id</span>=<span class="hl str">&quot;2&quot;</span><span class="hl kwa">&gt;</span>
+       Some content. <span class="hl kwd">&amp;wwwmurrayc;</span>
+    <span class="hl kwa">&lt;child_of_child/&gt;</span>
+  <span class="hl kwa">&lt;/examplechild&gt;</span>
+<span class="hl kwa">&lt;/example&gt;</span>
+
+</code></pre></td></tr></table>
+</div> <!-- class=content -->
+</div>
+  <div id="footer_community"></div>
+
+  <div id="footer_grass"></div>
+
+  <div id="footer">
+    <div class="container_13" id="container_12">
+      <div class="links grid_9">
+        <div class="menu-footer-container">
+          <ul id="menu-footer" class="menu">
+            <li id="menu-item-1048" class=
+            "menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-1048">
+            <a href="/">The GNOME Project</a>
+
+              <ul class="sub-menu">
+                <li id="menu-item-1049" class=
+                "menu-item menu-item-type-post_type menu-item-object-page menu-item-1049">
+                <a href="https://www.gnome.org/about/">About Us</a></li>
+
+                <li id="menu-item-1050" class=
+                "menu-item menu-item-type-post_type menu-item-object-page menu-item-1050">
+                <a href="https://www.gnome.org/get-involved/">Get Involved</a></li>
+
+                <li id="menu-item-1051" class=
+                "menu-item menu-item-type-post_type menu-item-object-page menu-item-1051">
+                <a href="https://www.gnome.org/teams/">Teams</a></li>
+
+                <li id="menu-item-1053" class=
+                "menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
+                <a href="https://www.gnome.org/support-gnome/">Support GNOME</a></li>
+
+                <li id="menu-item-1054" class=
+                "menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
+                <a href="https://www.gnome.org/contact/">Contact Us</a></li>
+
+                <li id="menu-item-2246" class=
+                "menu-item menu-item-type-post_type menu-item-object-page menu-item-2246">
+                <a href="https://www.gnome.org/foundation/">The GNOME Foundation</a></li>
+              </ul>
+            </li>
+
+            <li id="menu-item-1047" class=
+            "menu-item menu-item-type-custom menu-item-object-custom menu-item-1047">
+              <a href="#">Resources</a>
+
+              <ul class="sub-menu">
+                <li id="menu-item-1055" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1055">
+                <a href="https://developer.gnome.org">Developer Center</a></li>
+
+                <li id="menu-item-1056" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1056">
+                <a href="https://help.gnome.org">Documentation</a></li>
+
+                <li id="menu-item-1057" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1057">
+                <a href="https://wiki.gnome.org">Wiki</a></li>
+
+                <li id="menu-item-1058" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1058">
+                <a href="https://mail.gnome.org/mailman/listinfo">Mailing Lists</a></li>
+
+                <li id="menu-item-1059" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1059">
+                <a href="https://wiki.gnome.org/GnomeIrcChannels">IRC Channels</a></li>
+
+                <li id="menu-item-1060" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1060">
+                <a href="https://bugzilla.gnome.org/">Bug Tracker</a></li>
+
+                <li id="menu-item-1061" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1061">
+                <a href="https://git.gnome.org/browse/">Development Code</a></li>
+
+                <li id="menu-item-1062" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1062">
+                <a href="https://wiki.gnome.org/Jhbuild">Build Tool</a></li>
+              </ul>
+            </li>
+
+            <li id="menu-item-1046" class=
+            "menu-item menu-item-type-custom menu-item-object-custom menu-item-1046">
+              <a href="/news">News</a>
+
+              <ul class="sub-menu">
+                <li id="menu-item-1063" class=
+                "menu-item menu-item-type-post_type menu-item-object-page menu-item-1063">
+                <a href="https://www.gnome.org/press/">Press Releases</a></li>
+
+                <li id="menu-item-1064" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1064">
+                <a href="https://www.gnome.org/start/stable">Latest Release</a></li>
+
+                <li id="menu-item-1065" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1065">
+                <a href="https://planet.gnome.org">Planet GNOME</a></li>
+
+                <li id="menu-item-1067" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1067">
+                <a href="https://news.gnome.org">Development News</a></li>
+
+                <li id="menu-item-1068" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1068">
+                <a href="https://identi.ca/gnome">Identi.ca</a></li>
+
+                <li id="menu-item-1069" class=
+                "menu-item menu-item-type-custom menu-item-object-custom menu-item-1069">
+                <a href="https://twitter.com/gnome">Twitter</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="footnotes" class="grid_9">
+<p>Copyright &copy; 2004&ndash;<span id="current-year"></span>, <a href="https://www.gnome.org/">The GNOME Project</a>.</p>
+<br />
+  <small><p>Hosted by <a href="http://www.redhat.com/">Red Hat</a>. 
+   Powered by <a href="http://hjemli.net/git/cgit/">cgit</a>.</p>
+  <p>To follow the commits, subscribe to <a href="http://mail.gnome.org/mailman/listinfo/commits-list">commits-list</a>. (can be limited to specific modules)</p></small>
+</div>
+    </div>
+  </div>
+
+<script type="text/javascript">document.getElementById('current-year').innerHTML = new Date().getFullYear();</script>
+</div> <!-- id=cgit -->
+</body>
+</html>

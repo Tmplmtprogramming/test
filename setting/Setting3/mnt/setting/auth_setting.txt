@@ -1,0 +1,20 @@
+AuthSetting
+{
+	TlsSetitng
+	{
+		enableCleintCeriticateMode false
+		certificateType plain
+		certiicateName my_certificate
+	}
+	IEEE8021xSetting
+	{
+		isEnable 0
+		eapolVersion 3
+		eapId aaa111
+		keyPw 5tkatjd!
+		caCertInstalled 1
+		cliCertInstalled 1
+		cliPemInstalled 0
+		eapType hex
+	}
+}

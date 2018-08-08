@@ -1,0 +1,17 @@
+openssl genrsa -aes256 -out ./rootca.key 2048
+chmod 600 ./rootca.key
+openssl req -key ./rootca.key -out ./rootca.csr -config rootca_openssl.conf
+openssl req -new -key ./rootca.key -out ./rootca.csr -config rootca_openssl.conf
+openssl x509 -req -days 3650 -extensions v3_ca -set_serial 1 -in ./rootca.csr -signkey ./rootca.key -out ./rootca.crt -extfile rootca_openssl.conf
+openssl x509 -text -in ./rootca.crt
+
+openssl genrsa -aes256 -out ./camera.key 2048
+cp ./camera.key ./camera.key.enc
+openssl rsa -in ./camera.key.enc -out ./camera.key
+chmod 600 ./camera.key
+touch camera_openssl.conf
+openssl req -new -key ./camera.key -out ./camera.csr -config camera_openssl.conf
+openssl x509 -req -days 1825 -extensions v3_user -in ./camera.csr -CA ./rootca.crt -CAcreateserial -CAkey ./rootca.key -out ./camera.crt -extfile camera_openssl.conf
+openssl x509 -in ./camera.crt
+
+REFERENCE : https://www.lesstif.com/pages/viewpage.action?pageId=6979614

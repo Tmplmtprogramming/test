@@ -1,0 +1,15 @@
+videoManager {
+   att1 1
+   videoProfile {
+     att4 4.5
+     att5 insert
+     att3 3
+   }
+VideoCodec
+{
+codec_type H264
+qp_value 30
+profile_name doiter
+}
+   att2 2
+}
